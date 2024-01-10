@@ -9,9 +9,9 @@ main {
     margin: 0 auto;
 }
 
-/* Hero section styles */
+/* Hero celebration styles */
 
-.hero {
+.celebration {
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/herobg.png');
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@ main {
     margin-top: 50px;
 }
 
-.hero-title {
+.celebration-title {
     margin: 0;
     color: #FFF;
     text-align: center;
@@ -28,7 +28,7 @@ main {
     font-weight: 400;
 }
 
-.hero-description {
+.celebration-description {
     margin: 0;
     padding-top: 15px;
     color: #FFF;
@@ -38,13 +38,13 @@ main {
     font-weight: 900;
 }
 
-/* Offer section styles */
+/* deals section styles */
 
-.offer {
+.deals {
     padding: 120px 0;
 }
 
-.offer-quantity {
+.deals-quantity {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -52,7 +52,7 @@ main {
     font-weight: 700;
 }
 
-.offer-title {
+.deals-title {
     margin: 0;
     color: #F00;
     text-align: center;
@@ -61,7 +61,7 @@ main {
     font-weight: 500;
 }
 
-.offer-sub-title {
+.deals-sub-title {
     margin: 0;
     padding-top: 15px;
     padding-bottom: 45px;
@@ -72,13 +72,13 @@ main {
     font-weight: 700;
 }
 
-.offer-image {
+.deals-image {
     text-align: center;
 }
 
-/* welcome section styles */
+/* party section styles */
 
-.welcome {
+.party {
     display: flex;
     padding: 70px 125px;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/welcome_bg.png');
@@ -88,11 +88,11 @@ main {
     align-items: center;
 }
 
-.welcome-content {
+.party-content {
     max-width: 70%;
 }
 
-.welcome-content-title {
+.party-content-title {
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
@@ -101,7 +101,7 @@ main {
     letter-spacing: 7.04px;
 }
 
-.welcome-content-description {
+.party-content-description {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
@@ -110,7 +110,7 @@ main {
     margin-bottom: 45px;
 }
 
-.welcome-join-btn {
+.party-join-btn {
     margin-left: 30px;
     text-decoration: none;
     color: #FFF;
@@ -166,20 +166,20 @@ main {
     text-transform: uppercase;
 }
 
-/* coming soon section styles */
+/* offer section styles */
 
-.comingsoon {
+.offer {
     align-items: center;
     display: flex;
     gap: 70px;
     justify-content: space-between;
 }
 
-.comingsoon-left {
+.offer-left {
     max-width: 33.33%;
 }
 
-.comingsoon-left-title {
+.offer-left-title {
     margin: 0;
     color: #F00;
     font-family: Inter;
@@ -187,7 +187,7 @@ main {
     font-weight: 500;
 }
 
-.comingsoon-left-sub-title {
+.offer-left-sub-title {
     margin: 0;
     padding: 15px 0;
     color: #070211;
@@ -196,7 +196,7 @@ main {
     font-weight: 900;
 }
 
-.comingsoon-left-desciption {
+.offer-left-desciption {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -204,22 +204,22 @@ main {
     line-height: 32px;
 }
 
-.comingsoon-mid {
+.offer-mid {
     max-width: 33.33%;
 }
 
-.comingsoon-mid-img {
+.offer-mid-img {
     padding: 35px;
     border-radius: 50%;
     border: 15px solid #F00;
 }
 
-.comingsoon-right {
+.offer-right {
     max-width: 33.33%;
     padding-left: 40px;
 }
 
-.comingsoon-right-title {
+.offer-right-title {
     margin: 0;
     color: #F00;
     font-family: Inter;
@@ -227,7 +227,7 @@ main {
     font-weight: 700;
 }
 
-.comingsoon-right-desciption {
+.offer-right-desciption {
     margin: 0;
     padding-top: 15px;
     padding-bottom: 40px;
@@ -238,14 +238,14 @@ main {
     line-height: 32px;
 }
 
-/* sale section styles */
+/* holiday section styles */
 
-.sale {
+.holiday {
     margin: 120px 0;
 
 }
 
-.sale-top-title {
+.holiday-top-title {
     margin: 0;
     text-align: center;
     color: #070211;
@@ -254,7 +254,7 @@ main {
     font-weight: 500;
 }
 
-.sale-top-sub-title {
+.holiday-top-sub-title {
     margin: 0;
     padding-top: 15px;
     padding-bottom: 30px;
@@ -265,7 +265,7 @@ main {
     font-weight: 900;
 }
 
-.sale-top-strong {
+.holiday-top-strong {
     color: #F00;
     text-align: center;
     font-family: Merriweather;
@@ -273,7 +273,7 @@ main {
     font-weight: 900;
 }
 
-.sale-top-description {
+.holiday-top-description {
     margin: 0 auto;
     max-width: 70%;
     color: rgba(7, 2, 17, 0.60);
@@ -284,7 +284,7 @@ main {
     line-height: 32px;
 }
 
-.sale-mid {
+.holiday-mid {
     margin-top: 60px;
     align-items: center;
     display: flex;
@@ -293,21 +293,21 @@ main {
     background-position: top right;
 }
 
-.sale-mid-img-left {
+.holiday-mid-img-left {
     z-index: 1;
     margin-bottom: -17.5%;
 }
 
-.sale-down {
+.holiday-down {
     height: 229px;
     background-image: url('../images/sale-down-bg.png');
     background-repeat: no-repeat;
     border-radius: 16px 0px 16px 16px;
 }
 
-/* portfolio section styles */
+/* gift section styles */
 
-.portfolio-content-title {
+.gift-content-title {
     margin: 0;
     color: #F00;
     font-family: Inter;
@@ -315,7 +315,7 @@ main {
     font-weight: 500;
 }
 
-.portfolio-content-sub-title {
+.gift-content-sub-title {
     margin: 0;
     padding-top: 15px;
     padding-bottom: 20px;
@@ -325,7 +325,7 @@ main {
     font-weight: 900;
 }
 
-.portfolio-content-description {
+.gift-content-description {
     margin: 0;
     padding-bottom: 45px;
     max-width: 70%;
@@ -336,16 +336,16 @@ main {
     line-height: 32px;
 }
 
-.portfolio-img-grid {
+.gift-img-grid {
     display: flex;
     justify-content: space-between;
     gap: 24px;
     margin-bottom: 24px;
 }
 
-/* newsletter section styles */
+/* subscribe section styles */
 
-.newsletter {
+.subscribe {
     text-align: center;
     margin: 120px 0;
     padding: 80px 0;
@@ -353,7 +353,7 @@ main {
     background: rgba(255, 0, 0, 0.05);
 }
 
-.newsletter-title {
+.subscribe-title {
     margin: 0;
     padding-top: 40px;
     padding-bottom: 20px;
@@ -364,7 +364,7 @@ main {
     font-weight: 900;
 }
 
-.newsletter-description {
+.subscribe-description {
     max-width: 70%;
     margin: 0 auto;
     padding-bottom: 45px;
@@ -376,7 +376,7 @@ main {
     line-height: 32px;
 }
 
-.newsletter-form input[type="email"] {
+.subscribe-form input[type="email"] {
     color: rgba(7, 2, 17, 0.30);
     text-align: center;
     font-family: Inter;
@@ -388,7 +388,7 @@ main {
     margin: 0;
 }
 
-.newsletter-form input[type="submit"] {
+.subscribe-form input[type="submit"] {
     color: #FFF;
     text-align: center;
     font-family: Inter;
